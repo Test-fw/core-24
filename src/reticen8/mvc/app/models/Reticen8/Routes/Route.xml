@@ -1,0 +1,29 @@
+<model>
+    <mount>//staticroutes</mount>
+    <version>1.0.0</version>
+    <items>
+        <route type="ArrayField">
+          <network type="NetworkField">
+            <NetMaskRequired>Y</NetMaskRequired>
+            <Required>Y</Required>
+            <ValidationMessage>Specify a valid network matching the gateways ip protocol.</ValidationMessage>
+          </network>
+          <gateway type="JsonKeyValueStoreField">
+            <Required>Y</Required>
+            <ConfigdPopulateAct>interface gateways list</ConfigdPopulateAct>
+            <SourceFile>/tmp/gateway_list.json</SourceFile>
+            <ConfigdPopulateTTL>20</ConfigdPopulateTTL>
+            <ValidationMessage>Specify a valid gateway from the list matching the networks ip protocol.</ValidationMessage>
+          </gateway>
+<<<<<<< HEAD
+          <descr type="TextField"/>
+=======
+          <descr type="DescriptionField"/>
+>>>>>>> 98878a9eb90c1150b232bfbc7e9a012a3e3462a0
+          <disabled type="BooleanField">
+            <Default>0</Default>
+            <Required>Y</Required>
+          </disabled>
+        </route>
+    </items>
+</model>

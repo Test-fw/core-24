@@ -1,0 +1,5 @@
+# auth
+auth		sufficient	pam_reticen8.so
+
+# account
+account		sufficient	pam_reticen8.so

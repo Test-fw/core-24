@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset documentation_url="https://github.com/reticen8/rules">
+    <location url="https://rulesets.reticen8.org/suricata/" prefix="Reticen8-App-detect"/>
+    <files>
+        <file description="test">reticen8.test.rules</file>
+        <file description="file-transfer">reticen8.file_transfer.rules</file>
+        <file description="mail">reticen8.mail.rules</file>
+        <file description="media-streaming">reticen8.media_streaming.rules</file>
+        <file description="messaging">reticen8.messaging.rules</file>
+        <file description="social-networking">reticen8.social_media.rules</file>
+        <file description="uncategorized">reticen8.uncategorized.rules</file>
+    </files>
+</ruleset>

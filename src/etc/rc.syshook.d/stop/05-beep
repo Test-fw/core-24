@@ -1,0 +1,3 @@
+#!/bin/sh
+
+reticen8-beep stop
